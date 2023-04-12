@@ -23,28 +23,28 @@ date.innerHTML = new Date().getFullYear();
 
 
 /* Contact*/
-const btn = document.getElementById('button');
-const namme = document.getElementById('from_name').value;
-const mail = document.getElementById('email_id').value;
-const mesaj = document.getElementById('message').value;
+// const btn = document.getElementById('button');
+// const namme = document.getElementById('from_name').value;
+// const mail = document.getElementById('email_id').value;
+// const mesaj = document.getElementById('message').value;
 
-document.getElementById('form')
-  .addEventListener('submit', function (event) {
-    event.preventDefault();
+// document.getElementById('form')
+//   .addEventListener('submit', function (event) {
+//     event.preventDefault();
 
-    btn.value = 'Sending...';
+//     btn.value = 'Sending...';
 
-    const serviceID = 'default_service';
-    const templateID = 'template_vglu4de';
+//     const serviceID = 'default_service';
+//     const templateID = 'template_vglu4de';
 
-    emailjs.sendForm(serviceID, templateID, this)
-      .then(() => {
-        btn.value = 'Send Email';
-        alert('Sent!');
-      }, (err) => {
-        btn.value = 'Send Email';
-        alert(JSON.stringify(err));
-      });
-  });
+//     emailjs.sendForm(serviceID, templateID, this)
+//       .then(() => {
+//         btn.value = 'Send Email';
+//         alert('Sent!');
+//       }, (err) => {
+//         btn.value = 'Send Email';
+//         alert(JSON.stringify(err));
+//       });
+//   });
 
 
