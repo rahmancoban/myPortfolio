@@ -1096,3 +1096,30 @@ input[type="submit"] {
 #button:hover {
   background: var(--t-primary-900);
 }
+
+@media screen and (max-width: 600px) {
+  .field label {
+    font-size: 0.8rem;
+  }
+
+  .container {
+    max-width: 400px;
+    padding: 2rem;
+    margin: 4rem auto;
+  }
+
+  .container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .contact-info {
+    margin-bottom: 1.8rem;
+  }
+  #contact-form {
+    padding: 1rem 2rem;
+  }
+  .field input {
+    line-height: 1;
+    font-size: 1rem;
+  }
+}
