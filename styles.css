@@ -1123,3 +1123,79 @@ input[type="submit"] {
     font-size: 1rem;
   }
 }
+
+
+/*Tech Names*/
+
+.experience-responsibilities {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Container for tech tags */
+.tech-tags {
+  display: flex;
+  gap: 1rem; /* Adds space between the tags */
+  margin-top: 1rem;
+}
+
+/* Styling individual technology tags */
+.tech-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: #ADD8E6; /* Bluish color */
+  padding: 5px 10px;
+  border-radius: 5px;
+  gap: 5px;
+}
+
+.tech-name {
+  font-weight: bold;
+  color: black;
+}
+
+.tech-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.tech-container {
+  display: flex;
+  flex-wrap: wrap; /* Enables wrapping */
+  gap: 10px; /* Space between items */
+  justify-content: start; /* Aligns to the left */
+  max-width: 600px; /* Adjust based on your design */
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #ADD8E6; /* Bluish background */
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.tech-icon {
+  width: 16px; /* Adjust icon size */
+  height: 16px;
+}
+
